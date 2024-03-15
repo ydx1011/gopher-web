@@ -17,7 +17,7 @@ go get github.com/ydx1011/gopher-web
 app := gopher.NewFileConfigApplication("assets/config-test.yaml")
 app.RegisterBean(gopherweb.NewGinProcessor())
 // 或者
-// app.RegisterBean(gigopher.NewProcessor())
+// app.RegisterBean(gingopher.NewProcessor())
 //注册值注入处理器，用于根据配置注入值（非必须）
 app.RegisterBean(processor.NewValueProcessor())
 //注册其他对象
