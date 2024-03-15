@@ -7,7 +7,7 @@ gopher-web是gopher的WEB扩展组件，用于集成WEB相关服务。
 
 ## 安装
 ```
-go get github.com/xfali/gopher-web
+go get github.com/ydx1011/gopher-web
 ```
 
 ## 使用
